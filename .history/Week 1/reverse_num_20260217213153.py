@@ -1,3 +1,0 @@
-"""
-PWrite a program to reverse a given positive integer using loop logic (without converting number to string).
-"""
