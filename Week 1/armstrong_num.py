@@ -1,6 +1,11 @@
 """
 Problem: Write a program to check whether a number is armstrong or not.
-Approach:
+Approach: 
+1. An Armstrong number is a number where the sum of each digit raised to the power of total digits equals the original number.
+2. First, count the number of digits.
+3. Store the original number in a temporary variable named as org_num.
+4. Extract each digit using % 10, raise it to the digit count, and add to the sum.
+5. Compare the sum with the original number to determine the result.
 """
 # count digits in  a number
 def count_digits(num):
